@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <EditText
+        android:id="@+id/et_edittitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note's Title" />
+
+    <EditText
+        android:id="@+id/et_editcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note's Content"
+        android:minHeight="400dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="delete" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

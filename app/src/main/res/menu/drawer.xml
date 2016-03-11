@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!-- checkableBehavior 代表组中只有一个菜单可以checked-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_note"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_note" />
+        <!--<item
+            android:id="@+id/navigation_item_example"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_example" />
+        <item
+            android:id="@+id/navigation_item_blog"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_my_blog" />-->
+
+        <item
+            android:id="@+id/navigation_item_about"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/navigation_about" />
+    </group>
+</menu>

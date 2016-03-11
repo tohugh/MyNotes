@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+
+    <string name="navigation_note">Notes</string>
+    <string name="navigation_example">Example</string>
+    <string name="navigation_my_blog">Example</string>
+    <string name="navigation_about">About</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>
